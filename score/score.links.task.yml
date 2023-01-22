@@ -1,0 +1,22 @@
+entity.score.settings:
+  title: Settings
+  route_name: entity.score.settings
+  base_route: entity.score.settings
+entity.score.view:
+  title: View
+  route_name: entity.score.canonical
+  base_route: entity.score.canonical
+entity.score.edit_form:
+  title: Edit
+  route_name: entity.score.edit_form
+  base_route: entity.score.canonical
+entity.score.delete_form:
+  title: Delete
+  route_name: entity.score.delete_form
+  base_route: entity.score.canonical
+  weight: 10
+entity.score.collection:
+  title: score
+  route_name: entity.score.collection
+  base_route: system.admin_content
+  weight: 10

@@ -1,0 +1,15 @@
+entity.student.settings:
+  title: student
+  description: Configure a student entity type
+  route_name:  entity.student.settings
+  parent: system.admin_structure
+entity.student.collection:
+  title: students
+  description: List of students
+  route_name: entity.student.collection
+  parent: system.admin_content
+entity.student.store_import:
+  title: 'Import Student and score'
+  route_name: entity.student.Studentimport
+  description: 'Import Studnet using CSV file.'
+  parent: system.admin_config_system

@@ -1,0 +1,14 @@
+entity.student.settings:
+  path: 'admin/structure/student'
+  defaults:
+    _form: '\Drupal\student\Form\StudentSettingsForm'
+    _title: 'student'
+  requirements:
+    _permission: 'administer student'
+entity.student.Studentimport:
+  path: '/admin/config/student/student_import'
+  defaults:
+    _form: '\Drupal\student\Form\StudentImport'
+    _title: 'Student Import'
+  requirements:
+    _permission: 'administer site configuration'

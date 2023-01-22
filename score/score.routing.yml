@@ -1,0 +1,7 @@
+entity.score.settings:
+  path: 'admin/structure/score'
+  defaults:
+    _form: '\Drupal\score\Form\ScoreSettingsForm'
+    _title: 'score'
+  requirements:
+    _permission: 'administer score'

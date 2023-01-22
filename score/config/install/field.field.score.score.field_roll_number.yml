@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.score.field_roll_number
+  module:
+    - score
+id: score.score.field_roll_number
+field_name: field_roll_number
+entity_type: score
+bundle: score
+label: 'Roll number'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

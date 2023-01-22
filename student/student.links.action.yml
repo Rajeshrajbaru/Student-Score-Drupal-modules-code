@@ -1,0 +1,5 @@
+student.add_form:
+  route_name: entity.student.add_form
+  title: 'Add student'
+  appears_on:
+    - entity.student.collection

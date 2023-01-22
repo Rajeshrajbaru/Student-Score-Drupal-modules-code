@@ -1,0 +1,5 @@
+administer score:
+  title: 'Administer score settings'
+  restrict access: true
+access score overview:
+  title: 'Access score overview page'

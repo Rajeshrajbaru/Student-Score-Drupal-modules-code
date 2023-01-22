@@ -1,0 +1,10 @@
+entity.score.settings:
+  title: score
+  description: Configure a score entity type
+  route_name:  entity.score.settings
+  parent: system.admin_structure
+entity.score.collection:
+  title: scores
+  description: List of scores
+  route_name: entity.score.collection
+  parent: system.admin_content

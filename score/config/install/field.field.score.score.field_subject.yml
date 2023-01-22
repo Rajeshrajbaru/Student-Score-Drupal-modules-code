@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.score.field_subject
+  module:
+    - score
+id: score.score.field_subject
+field_name: field_subject
+entity_type: score
+bundle: score
+label: Subject
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
